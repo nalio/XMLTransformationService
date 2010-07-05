@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceType name="XMLTransformationServiceType" factoryClass="com.progress.codeshare.esbservice.xmlTransformation.XMLTransformationService"
+        xmlns="http://www.sonicsw.com/sonicxq">
+    <validParams>
+        <runtime>
+            <stringParam name="keepOriginalPart"/>
+            <stringParam name="messagePart"/>
+            <stringParam name="stylesheet"/>
+        </runtime>
+    </validParams>
+</serviceType>
